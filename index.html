@@ -31,6 +31,21 @@
             font-size: 18px;
             color: #febd59;
         }
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.header-logo {
+    width: 50px;      
+    height: auto;
+}
+
+		
 		header img {
              width: 90px;  
              height: auto
@@ -112,12 +127,18 @@
 <body>
 
 <header>
-    <h1>Heber MUN Society</h1>
+    <div class="header-content">
+        <img src="images/logo.jpeg" 
+             alt="Heber MUN Society Logo" 
+             class="header-logo">
+
+        <h1>Heber MUN Society</h1>
+    </div>
+
     <p>All means all, leaves no one behind</p>
-	<div class="logo">
-  <img src="images/logo.jpeg" alt="Heber MUN Society">
-</div>
 </header>
+
+	
 <section>
     <h2>About Us</h2>
     <p>
@@ -227,6 +248,7 @@
 
 </body>
 </html>
+
 
 
 
