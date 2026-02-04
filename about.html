@@ -67,6 +67,39 @@
             color: #f4d28a;
         }
 
+/* Secretariat Grid */
+.secretariat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.secretariat-card {
+    text-align: center;
+}
+
+.secretariat-card img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 12px;
+    border: 3px solid #f4d28a;
+}
+
+.secretariat-card h4 {
+    margin: 6px 0 2px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.secretariat-card span {
+    font-size: 14px;
+    color: #f4d28a;
+}
+
+        
         footer {
             background-color: #41210e;
             text-align: center;
@@ -125,42 +158,161 @@
         and academic rigor.
     </p>
 
-    <ul>
-        <p><strong>President</strong> - Sivarethinavel S</p>
-        <p><strong>Secretary-General</strong> - Moonish T</p>
-        <p><strong>Deputy Secretary-General</strong> - Keerthana Bharathi</p>
-        <p><strong>Director-General</strong> - Hariharan V</p>
-        <p><strong>IPC Head</strong> - Pradhakshini J K</p>
-        <p><strong>Director of Photography</strong> - Abhishek Prasad</p>
-        <p><strong>Associate Director of Photography</strong> - Vignesh K</p>
-        <p><strong>Editor in Chief</strong> - Karpagavinayagam A</p>
-        <p><strong>Associate Editor in Chief</strong> - Konoda Manish</p>
-        <p><strong>Research Head</strong> - Amrutha Varshini Padmanabhan</p>
-        <p><strong>Research Head</strong> - Indushri Krishanan</p>
-        <p><strong>USG - Finance</strong></p>
-        <li>Lakshmi Narasimhan</li>
-        <li>Rithanya R A</li>
-        <p>Joelin Sweety Johnson</p>
-        <p><strong>USG - Marketing</strong></p>
-        <li>Khaleel Mohamed</li>
-        <li>Lawrance Joel T</li>
-        <li>Lakshmipria</li>
-        <p><strong>USG - Delegate Affairs</strong></p>
-        <li>Roshan C V</li>
-        <li>Thanishtha R</li>
-        <li>Srinath Ramesh</li>
-        <p><strong>USG - Public Relations</strong></p>
-        <li>Yuvaraj</li>
-        <li>Melissa George Myladoor</li>
-        <li>Mohammed Ridwan</li>
-        <p><strong>USG - Organizing Committee</strong></p>
-        <li>Harivaradharaj N</li>
-        <li>Jobin John</li>
-        <p><strong>Technical Head</strong> - Nidhishwaran</p>
-        <p><strong>Senior Advisors</strong></p>
-        <li>Prasanna Bhatkar</li>
-        <li>Sarvagaya Madhawal</li>
-    </ul>
+    <div class="secretariat-grid">
+
+    <div class="secretariat-card">
+        <img src="images/secretariat/president.jpg" alt="President">
+        <h4>Sivarethinavel S</h4>
+        <span>President</span>
+    </div>
+
+    <div class="secretariat-card">
+        <img src="images/secretariat/secgen.jpg" alt="Secretary-General">
+        <h4>Moonish T</h4>
+        <span>Secretary-General</span>
+    </div>
+
+    <div class="secretariat-card">
+        <img src="images/secretariat/dsg.jpg" alt="Deputy Secretary-General">
+        <h4>Keerthana Bharathi</h4>
+        <span>Deputy Secretary-General</span>
+    </div>
+
+    <div class="secretariat-card">
+        <img src="images/secretariat/dg.jpg" alt="Director-General">
+        <h4>Hariharan V</h4>
+        <span>Director-General</span>
+    </div>
+
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="USG - Finance">
+        <h4>Pradhakshini J K</h4>
+        <span>USG - Finance</span>
+    </div>
+<div class="secretariat-grid">
+
+    <div class="secretariat-card">
+        <img src="images/secretariat/president.jpg" alt="Director of Photography">
+        <h4>Abhishek Prasad</h4>
+        <span>Director of Photography</span>
+    </div>
+
+    <div class="secretariat-card">
+        <img src="images/secretariat/secgen.jpg" alt="Associate Director of Photography">
+        <h4>Vignesh K</h4>
+        <span>Associate Director of Photography</span>
+    </div>
+
+    <div class="secretariat-card">
+        <img src="images/secretariat/dsg.jpg" alt="Editor in Chief">
+        <h4> Karpagavinayagam A</h4>
+        <span>Editor in Chief</span>
+    </div>
+
+    <div class="secretariat-card">
+        <img src="images/secretariat/dg.jpg" alt="Associate Editor in Chief">
+        <h4>Konada Manish</h4>
+        <span>Associate Editor in Chief</span>
+    </div>
+
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="Research Head">
+        <h4>Amrutha Varshini Padmanabhan</h4>
+        <span>Research Head</span>
+    </div>
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="Research Head">
+        <h4>Indushri Krishnan</h4>
+        <span>Research Head</span>
+    </div>
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="USG - Finance">
+        <h4>Lakshmi Narasimhan</h4>
+        <span>USG - Finance</span>
+    </div>
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="USG - Finance">
+        <h4>Rithanya R A</h4>
+        <span>USG - Finance</span>
+    </div>
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="USG - Finance">
+        <h4>Joelin Sweety Johnson</h4>
+        <span>USG - Finance</span>
+    </div>
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="USG - Marketing">
+        <h4>Khaleel Mohamed</h4>
+        <span>USG - Marketing</span>
+    </div>
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="USG - Marketing">
+        <h4>Lawrance Joel T</h4>
+        <span>USG - Marketing</span>
+    </div>
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="USG - Marketing">
+        <h4>Lakshmipria</h4>
+        <span>USG - Marketing</span>
+    </div>
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="USG - Delegate Affairs">
+        <h4>Roshan C V</h4>
+        <span>USG - Delegate Affairs</span>
+    </div>
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="USG - Delegate Affairs">
+        <h4>Thanishtha R</h4>
+        <span>USG - Delegate Affairs</span>
+    </div>
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="USG - Delegate Affairs">
+        <h4>Srinath Ramesh</h4>
+        <span>USG - Delegate Affairs</span>
+    </div>
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="USG - Public Relations">
+        <h4>Melissa George Myladoor</h4>
+        <span>USG - Public Relations</span>
+    </div>
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="USG - Public Relations">
+        <h4>Yuvaraj</h4>
+        <span>USG - Public Relations</span>
+    </div>
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="USG - Public Relations">
+        <h4>Mohammed Ridwan</h4>
+        <span>USG - Public Relations</span>
+    </div>
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="USG - Organizing Committee">
+        <h4>Harivaradharaj N</h4>
+        <span>USG - Organizing Committee</span>
+    </div>
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="USG - Organizing Committee">
+        <h4>Jobin John</h4>
+        <span>USG - Organizing Committee</span>
+    </div>
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="Technical Head">
+        <h4>Nidhishwaran</h4>
+        <span>Technical Head</span>
+    </div>
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="Senior Advisors">
+        <h4>Prasanna Bhatkar</h4>
+        <span>Senior Advisors</span>
+    </div>
+    <div class="secretariat-card">
+        <img src="images/secretariat/ipc.jpg" alt="Senior Advisors">
+        <h4>Sarvagaya Madhawal</h4>
+        <span>Senior Advisors</span>
+    </div>
+</div>
+
+
 </section>
 
 <section>
@@ -180,6 +332,7 @@
 
 </body>
 </html>
+
 
 
 
