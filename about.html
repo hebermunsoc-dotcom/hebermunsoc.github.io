@@ -74,7 +74,17 @@
     gap: 30px;
     margin-top: 30px;
 }
+@media (max-width: 1024px) {
+    .secretariat-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
+@media (max-width: 600px) {
+    .secretariat-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
 .secretariat-card {
     text-align: center;
@@ -334,6 +344,7 @@
 
 </body>
 </html>
+
 
 
 
